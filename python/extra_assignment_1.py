@@ -13,7 +13,7 @@ a=43
 print("a=", a)
 b=34
 print("b=", b)
-print("Add=", a - b, "\n")
+print("Add=", a + b, "\n")
 
 a=43
 print("a=", a)
