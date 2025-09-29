@@ -1,0 +1,27 @@
+
+
+Preprocesisng: 
+
+	Non-numerical values:
+		Nominal -> Categorical Data with no inherent order or ranking & No comparison -> one-hot Encoding
+		only check equality (same/different -> Male/Female). Arithmetic or comparison like <, > doesn’t make sense.
+		column expansion will happen
+
+		Ordinal -> Order & comparision -> Label-Encoding
+		Categorical data that has a natural order or ranking, but the differences between values are not measurable or consistent.
+		You can compare order (High > Medium), but you cannot say the “gap” between them is equal
+
+	Standaradization:
+		
+
+
+
+
+Explore:
+How to do lable encoding
+(independent,dependent, test_size=0.3,random_state=0) ->random_state?
+SVM
+DT-Entropy->Randnomness, information Gain->should be high,cost function vs Gini Index, Gain Ratio
+Purning, overfiting, underfitting
+hypertuning parameters
+
