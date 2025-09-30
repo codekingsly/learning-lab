@@ -1,5 +1,3 @@
-
-
 Preprocesisng: 
 
 	Non-numerical values:
@@ -14,9 +12,6 @@ Preprocesisng:
 	Standaradization:
 		
 
-
-
-
 Explore:
 How to do lable encoding
 (independent,dependent, test_size=0.3,random_state=0) ->random_state?
@@ -24,4 +19,7 @@ SVM
 DT-Entropy->Randnomness, information Gain->should be high,cost function vs Gini Index, Gain Ratio
 Purning, overfiting, underfitting
 hypertuning parameters
+Random Forest -> Ensemble Learning, Bagging or Bootstrap Aggeregation, Random Feature Selection
 
+
+If dataset contains both nominal and ordinal, how to do encoding
