@@ -23,3 +23,7 @@ Random Forest -> Ensemble Learning, Bagging or Bootstrap Aggeregation, Random Fe
 
 
 If dataset contains both nominal and ordinal, how to do encoding
+
+How to do cross validation if no parmaters eg Multiple Linear regression
+
+How to do standardscaler if train_test_split is not used i.e using gridsearchcv

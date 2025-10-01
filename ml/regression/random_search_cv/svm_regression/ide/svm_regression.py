@@ -36,7 +36,7 @@ for combo in combinations:
 
     if r_score > max_r_score:
         max_r_score = r_score
-        best_combo = combo.copy() # copy to avoid mutation
+        best_combo = combo.copy()
 
 print(tabulate(data, headers=["C", "Kernel", "R Score"], tablefmt="grid"))
 df = pd.DataFrame(data, columns=["C", "Kernel", "R Score"])
