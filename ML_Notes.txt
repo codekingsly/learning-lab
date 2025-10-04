@@ -1,3 +1,7 @@
+TODO:
+Boosting Algorith and Document
+Classification Confusion matrix doc
+
 Preprocesisng: 
 
 	Non-numerical values:
@@ -11,7 +15,6 @@ Preprocesisng:
 
 	Standaradization:
 		
-
 Explore:
 How to do lable encoding
 (independent,dependent, test_size=0.3,random_state=0) ->random_state?
@@ -27,3 +30,17 @@ If dataset contains both nominal and ordinal, how to do encoding
 How to do cross validation if no parmaters eg Multiple Linear regression
 
 How to do standardscaler if train_test_split is not used i.e using gridsearchcv
+
+Classification-Imbalance data set, confusion matrix, 
+Macro Average, weighted Average
+
+F1 Score, ROC, Probability=True, 
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+vectorizer = TfidfVectorizer()
+X_train_vec = vectorizer.fit_transform(text_train)
+X_test_vec = vectorizer.transform(text_test)
+
+grid.fit(X_train_vec, y_train)
+
+SVC(probability=True)
